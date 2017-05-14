@@ -1,0 +1,9 @@
+{
+"firebase":{
+        "databaseURL":"https://offerpic-543b5.firebaseio.com/"
+},
+"config":{
+        "token":"4/adUIQHjK0o7nK0zC_9i8PdEezbCWB2Drj6b4w51hSAI",
+        "project":"offerpic"
+        }       
+}
