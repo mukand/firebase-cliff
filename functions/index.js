@@ -20,7 +20,7 @@ exports.datainsert = functions.https.onRequest((req,res) => {
                 for(var i=0;i<limit;i++){
                         ref.push().set(obj);
                 }
-                res.status(200).send("Hello World");
+                res.status(200).send(limit+" inserted successfully");
 });
 
 exports.dataget = functions.https.onRequest((req,res) => {
@@ -34,5 +34,5 @@ exports.dataget = functions.https.onRequest((req,res) => {
                 var after = process.hrtime();
                 console.log((after[1]-before[1])/1000000000);
                 //console.log(dataValue);
-                res.status(200).send('Hello World');
+                res.status(200).send('read done');
 });
